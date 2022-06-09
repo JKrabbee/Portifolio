@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Mono', monospace;
+}
+body{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.li_header img{
+    width: 8vw;
+}
+.li_header{
+    list-style: none;
+    margin: 0px 3vw 0px 3vw;
+    font-size: 1.2vw;
+    font-weight: bold
+}
+
+.header_background{
+    position: relative;
+    background-image: url(./IMAGENS/HEADER/Background.png);
+    height: 32.5vw;
+    margin-top: 5px;
+    background-attachment: fixed;
+}
+
+.picture{
+    position: absolute;
+    margin: auto;
+    left:50%;
+    transform: translate(-50%,0);
+    top: 20vw;    
+}
+
+.profile{
+    border-radius: 50%;
+    border: 1.4vw solid white;
+    width: 23vw;
+}
+
+.Social_Media{
+    display: flex;
+    justify-content: space-around;
+}
+.Icons{
+
+    display: flex;
+}
+.Icons li{
+    list-style: none;
+    margin: 3.5vw 20px 0px 20px;
+}
+.Icons img{
+    width: 3vw;
+}
+
+.main_1{
+    margin-top: 9vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.main_1 a{
+    text-decoration: none;
+}
+.Sobre_Mim{
+    max-width: 45vw;
+    text-align: justify;
+    font-size: 1.2vw;
+    color: #35415E;
+    font-weight: bold
+}
+.Sobre_Mim h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #2B2139;
+}
+.vertical {
+    border-left: 2px dotted #35415E;
+    height: 28vw;
+    left: 50%;
+    display: inline;
+}
+.Cursos{
+    max-width: 45vw; 
+    text-align: justify;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: #35415E;
+}
+.Cursos h1{
+    color: #2B2139;
+}
+.Cursos h3{
+    color: #81427A;
+}
+.main_2{
+    margin-top: 2vw;
+    display: flex;
+    justify-content: center;
+}
+.trabalhos h1{
+    font-size: 3vw;
+    color: #2B2139;
+    text-align: center;
+}
+.madekril-img .imgWeb{
+    left:13vw;
+    border: 2px solid #2B2139;
+    border-radius: 25px;
+}
+.madekril-img .imgMobile{
+    left: 37.5vw;
+    margin-top: 9vw;
+    border: 2px solid #2B2139;
+    border-radius: 25px;
+}
+.roseAmelia-img .imgWeb{
+    right: 13vw;
+    border: 2px solid #2B2139;
+    border-radius: 25px;
+}
+.roseAmelia-img .imgMobile{
+    right: 38.5vw;
+    margin-top: 9vw;
+    border: 2px solid #2B2139;
+    border-radius: 25px;
+}
+.imgWeb{
+    width: 30vw;
+    position: absolute;
+}
+.imgMobile{
+    height: 17.4vw;
+    position: absolute;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    margin-top: 30vw;
+    height: 100px;
+    width: 100%;
+    background-color: #2B2139;
+}
