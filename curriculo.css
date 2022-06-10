@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'IBM Plex Mono', monospace;
+}
+.margin{
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+header{
+    margin-top: 0;
+    position: sticky;
+    top: -2vw;
+    z-index: 1000;
+}
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.li_header img{
+    width: 8vw;
+}
+.li_header{
+    list-style: none;
+    margin: 0px 3vw 0px 3vw;
+    font-size: 1.2vw;
+    font-weight: bold
+}
+.header a{
+    text-decoration: none;
+}
+.header a:hover{
+    text-decoration: overline;
+}
+.home{
+    color: #81427A;
+    text-decoration: overline;
+}
+
+main{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #2B2139;
+    width: 60vw;
+}
+.contato h2{
+    font-size: 2vw;
+    margin-bottom: 0.5vw;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+.esquerdo{
+    width: 25vw;
+    height: 80vw;
+    color: white;
+    background-color: rgb(54, 54, 240);
+}
+.esquerdo .profile{
+    margin-left: 50%;
+    transform: translate(-50%,0);
+}
+.profile{
+    border-radius: 50%;
+    width: 17vw;
+    margin-top: 4vw;
+}
+.contato{
+    margin-top: 5vw;
+    margin-left: 4vw;
+    margin-bottom: 5vw;
+    line-height: 2vw;
+}
+.contato li{
+    display: flex;
+}
+.contato img{
+    margin-top: 0.5vw;
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.contato p{
+    margin-top: 0.5vw;
+    font-size: 0.9vw;
+    width: 15vw;
+}
+.skills li{
+    font-size: 0.9vw;
+    margin-left: 4vw;
+    list-style: none;
+}
+.skills p{
+    line-height: 2vw;
+    font-size: 1.5vw;
+    color: black;
+}
+.direito{
+    margin-top: 5vw;
+    margin-left: 4vw;
+    margin-bottom: 5vw;
+    width: 25vw;
+    max-height: 20vw;
+}
+.direito h1, .direito h2{
+    color: rgb(54, 54, 240);
+    background-color: white;
+}
+.direito h1{
+    font-size: 4vw;
+}
+.direito h2{
+    font-size: 2vw;
+    margin-top: 4vw;
+}
+.direito h3{
+    font-size: 1.4vw;
+}
+.direito h4{
+    font-size: 1vw;
+}
+.direito p{
+font-size: 0.8vw;
+}
+.download{
+    position: absolute;
+    right: 2vw;
+}
+.download img{
+    width: 3vw;
+}
+footer{
+    margin-top: 5vw;
+    height: 2vw;
+    background-color: #2B2139;
+}
